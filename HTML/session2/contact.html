@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>
+       <a href="index.html">
+        Home page
+       </a>
+    </h1> -->
+
+
+    <!-- <a href="">
+        <img src="images/images.png">
+    </a> -->
+
+    <form autocomplete="off" action="index.html">
+        <h1>HTML FORM</h1>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" autocomplete="off" autofocus> <br>
+        <label>Last Name</label>
+        <input type="text" name="lastName"> <br>
+
+        <input type="email" placeholder="enter your Email" name="userEmail" required>
+
+        <label>Shipping Area</label>
+        <input type="text" value="Nasr city" name="shippingArea" readonly> <br>
+
+        <input type="password" placeholder="enter your password" name="userPassword" disabled> <br>
+
+        <label>Age</label>
+        <input type="number" name="age" required>
+
+        <input type="text" placeholder="enter your family name" name="familyName" maxlength="10" minlength="5"> <br>
+
+        <textarea required placeholder="enter your Comment" rows="6" cols="30" name="comment"></textarea> <br>
+
+
+        
+        <select name="course" multiple>
+            <option disabled selected>choose your course</option>
+            <option value="0">HTml</option>
+            <option value="1">Css</option>
+            <option value="2">Bootstrap</option>
+            <option value="3">Javascript</option>
+        </select> <br>
+
+        <label>upload Image</label>
+        <input type="file" multiple> <br>
+
+        <label>Gender</label>
+        <input type="radio" name="gender" value="male"> <span>Male</span>
+        <input type="radio" name="gender" value="female"> <span>Female</span> <br>
+
+
+        <label> choose the track </label>
+        <input type="checkbox" name="design" value="web design"> <label>web design</label>
+        <input type="checkbox" name="develop" value="web develop"> <label>web develop</label> <br>
+
+        <input type="date">
+        <input type="datetime-local">
+        <input type="month">
+
+
+        <input type="color">
+
+        <input type="range" name="range" min="100" max="200" value="200" step="50">
+
+
+        
+
+
+
+
+        <br>
+
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Data">
+    </form>
+    
+    <button>Sign Up</button>
+  
+    <!-- nouran_ahmed269@hotmail.com -->
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

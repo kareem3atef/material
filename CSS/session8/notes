@@ -1,0 +1,57 @@
+-- transition-property ==> all (default)
+-- transition-timing-function ==> ease (default) = start slow , then fast , end slow
+                                  linear = same speed from start to end
+                                  ease-in = start slow
+                                  ease-out = end slow
+                                  ease-in-out = start / end slow
+                                  cubic-bezier ==> (search)
+
+-- transition ==> transition-property + transition-duration + transition-timing-function  
+
+-- filter ==> grayscale(%)
+              blur(px)
+              brigthness(%) ==> 100% (default)
+              contrast(%) ==> 100% (default)
+              opacity(%) ==> 100% (default)
+              drop-shadow() ==> search
+
+
+-- overflow ==> auto , scroll , hidden
+-- white-space ==> nowrap , normal(default)   
+
+-- background-image : linear-grdaient(direction , color 1 , color2 ........)
+-- direction ==> top to bottom (default)
+
+-- background-image : radial-gradient(shape , color 1 , color 2 ..........)
+
+-- repeating-linear-gradient() ==> search
+
+
+-----Responsive---
+
+-- media Query
+
+@media media type (condition:breakpoint)
+
+-- media type ==> screen , speech (screenReader) , print
+-- condition (mediaFeatures) ==> max-width , min-width
+-- breakpoints ==> screen width
+
+
+
+
+///////////// Bootstrap Media Query //////////////////
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

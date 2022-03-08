@@ -1,0 +1,17 @@
+-- Css Methods ==> internal Sheet
+                   inline Style
+                   external Sheet
+
+
+-- css selector{
+    css property name : css property value ;
+}                   
+
+-- periority of css  = tag ==> class ==> id ==> inline style
+
+-- padding : top right bottom left
+
+-- border ==> width , color , style
+
+
+-- first time to download web design proiject ==> git clone https://github.com/NouranFayez/Web-Design-G15

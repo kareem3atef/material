@@ -1,0 +1,14 @@
+*{
+    direction: rtl;
+    font-family: 'Changa', sans-serif;
+}
+
+h1{
+    padding-left: 0;
+    padding-right: 7%;
+}
+
+.custom-font{
+    font-family: 'Dancing Script', cursive;
+    direction: ltr;
+}

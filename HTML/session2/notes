@@ -1,0 +1,23 @@
+-- inline Elements ==> label , input , iframe
+-- block Element ==> form
+
+-- form attributes ==> method , autocomplete  , action
+-- method ==> post , get(default)
+
+-- input attributes ==> type , placeholder , name , value , required , autocomplete , disabled , readonly
+                        minLength , maxlength , autofocus , id
+
+-- type attribute ==> text , email , password , radio , checkbox , date , datetime-local , month , file
+                      color , range , tel(search)
+
+-- textarea attributes ==> placeholder , cols , rows , required , disabled , name
+
+-- select attributes ==> required  , name , multiple
+-- option attrubutes ==> disabled , selected
+
+-- label attribute ==> for
+
+
+-- pattern attribute (search)
+
+-- video , audio tags (search)

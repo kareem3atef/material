@@ -1,0 +1,227 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/************* Pseudo Class ***************************/
+form{
+    width: 50%;
+    margin-top: 2%;
+    border: 7px solid;
+    padding: 2%;
+    outline: 6px solid red;
+}
+input[type=text] {
+    display: block;
+    margin-top: 3%;
+}
+input[name]{
+    background-color: chartreuse;
+    padding: 2%;
+}
+input[name=lastName]{
+    border: 5px solid red;
+}
+
+.custom-input{
+    margin-top: 2%;
+    font-size: 23px;
+    color: red;
+    padding: 1%;
+    border: 0;
+    border-bottom: 3px solid blue;
+}
+.custom-input:hover{
+    background-color: bisque;
+}
+.custom-input:focus{
+    /* background: lightblue; */
+    /* border: 0; */
+    outline: 0;
+    border-color: aqua;
+}
+
+.disabled-input:disabled{
+    background-color: cadetblue;
+}
+input:read-only{}
+
+input:checked{
+    width: 40px;
+    height: 40px;
+}
+
+input:required{
+    border: 3px solid red;
+}
+
+/***********************/
+a {
+    /* color: red; */
+    font-size: 30px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: chartreuse;
+}
+
+/******************************************/
+
+ul{
+    font-size: 35px;
+    margin-top: 2%;
+}
+
+.ul-style li:first-child{
+    color: red;
+}
+.ul-style li:last-child{
+    color: blue;
+}
+.ul-style li:nth-child(2){
+    color: chartreuse;
+}
+
+.div-style p:first-child{
+    background-color: aquamarine;
+}
+
+
+/* table style */
+table{
+    width: 100%;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+table , th , td {
+    border: 1px solid lightgray;
+}
+th , td{
+    padding: 1%;
+    text-align: center;
+}
+th{
+    background-color: cadetblue;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+tr:nth-child(even):hover{
+    background-color: aqua;
+}
+tr:hover{
+    background-color: lightgray;
+}
+
+tr td:first-child{
+    color: red;
+}
+
+
+/************* Pseudo Element ***************************/
+
+h1::first-line{
+    color: blue;
+}
+h1::first-letter{
+    font-size: 50px;
+    color: red;
+}
+
+::selection{
+    background-color: goldenrod;
+    color: white;
+}
+
+input::placeholder{
+    color: blue;
+}
+
+li::marker{
+    color: red;
+}
+.custom-h2{
+    margin-top: 3%;
+}
+.custom-h2::before , .custom-h2::after{
+    content: "Web Design ";
+    background-color: lightgray;
+    color: red;
+    margin: 2%;
+    padding: 1%;
+    border-right: 2px solid;
+    display: inline-block;
+}
+
+.custom-div{
+    border: 2px solid blue;
+    padding: 2%;
+    position: relative;
+}
+.custom-div::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid blue;
+    border-right: 20px solid transparent; 
+    border-left: 20px solid transparent; 
+    position: absolute;
+    top: 100%;
+    left: 4%;
+}
+.custom-div::after{
+    content: "Web Design ";
+    background-color: lightgray;
+    color: red;
+    /* margin: 2%; */
+    padding: 1%;
+    border-left: 2px solid;
+    display: inline-block;
+}
+
+.custom-div h1::after{
+    content: "Web Design ";
+    background-color: lightgray;
+    color: red;
+    /* margin: 2%; */
+    padding: 1%;
+    border-left: 2px solid;
+    display: inline-block;
+}
+
+
+.div-icon{
+    border: 2px solid ;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.div-icon h3::before{
+    font-family: "Font Awesome 5 Free"; 
+    content: "\f007";
+    color: red;
+    font-size: 25px;
+}
+
+section{
+    height: 1000px;
+}
+
+

@@ -1,0 +1,29 @@
+-- google fonts ==> https://fonts.google.com/
+
+-- flex ==> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+==> parent : display: flex
+             flex-direction : row (default) , row-reverse , column , column-reverse
+             flex-wrap : nowrap(default) , wrap
+             flex-flow : flex-direction + flex-wrap
+             justify-content : flex-start (default) , flex-end , center , space-between , space-around
+                               space-evenly
+             align-items : flex-start , flex-end , center , stretch
+             align-content : flex-start , flex-end , center , space-between , space-evenly , 
+             space-around 
+
+
+==> child ==> align-self : flex-start , flex-end , center , stretch             
+
+
+
+
+
+
+
+
+
+
+==> 90px/3 = 30px
+
+==> 30/2 = 15px

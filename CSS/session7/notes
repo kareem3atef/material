@@ -1,0 +1,39 @@
+-- width ==> % (recommended) , px
+-- height ==> px (recommended) , %
+-- border , font-size ==> px
+-- border-radius ==> px , %
+
+-- left , right ==> % (recommended) , px
+-- top , bottom ==> px , %
+
+-- margin , padding ==> % (recommended) , px
+------------------------------------------------------------
+
+-- 1em ==> 16px
+-- 1rem (responsive em)  = 16px
+-- vh ==> (search)
+-----------------------------------------------------------
+
+-- Pseudo Class & pseduo Element Reference ==> https://www.w3schools.com/css/css_pseudo_classes.asp
+
+-- Pseudo Class ==> :hover , :focus , :disabled , :read-only
+                    :link ==> unvisited link
+                    :visited ==> visited link
+                    :active ==> selected link 
+                    :first-child , last-child , nth-child(even , odd , num)
+
+-- Pseudo Element ==> ::selection , ::placeholder , ::first-line , ::first-letter , ::marker ,
+                      ::before , ::after
+
+
+--CSS Selector ==> [attribute]
+                   [attribute = value]
+                   pseudo class
+                   pseudo element
+
+
+-- feather icon ==> https://feathericons.com/     
+
+
+
+-- wow documentation ==> https://wowjs.uk/

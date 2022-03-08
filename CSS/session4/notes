@@ -1,0 +1,10 @@
+-- position : fixed , sticky , relative , absolute , static (default)
+-- left , right , top , bottom , z-index
+
+-- left / right ==> %(recommended) , px
+-- top / bottom ==> px(recommended) , %
+
+-- position: sticky ==> top : 0  // parent ==> body
+
+-- fonteawesome Documentation ==> https://fontawesome.com
+-- fonteawesome cdn v 6 ==> https://cdnjs.com/libraries/font-awesome

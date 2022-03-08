@@ -1,0 +1,27 @@
+-- html tutorials ==> https://www.w3schools.com/html/default.asp 
+                  ==> https://www.javatpoint.com/html-tutorial
+
+-- <!DOCTYPE html> ==> to support html 5
+
+-- heading ==> h1:h6
+
+-- block Elements ==> h1 : h6 , p , table , ol , ul , div , semantic tags
+-- inline Elements ==> span , a , img , Text Formatting
+
+-- a attributes ==> href ==> link 
+                ==> target ==> _blank , _self (default) 
+
+
+-- empty tags ==> hr , br , !DOCTYPE  , img
+
+-- img attributes ==> src
+                      height
+                      width
+                      alt
+
+-- table attribute ==> border
+-- th , td attributes ==> colspan , rowspan
+
+-- ol type ==> 1 (default) , A , a , I , I
+-- ul type ==> disc (default) , square , circle
+

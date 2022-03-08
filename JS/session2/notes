@@ -1,0 +1,48 @@
+--break / continue
+
+-- function ==> block of Code
+                name
+                Call()
+                parameters
+                return value
+
+-- function Methods ==> function statment 
+                        function Expression
+                        arrow function
+
+-- function looping (startNum , endNum , contNum , breakNum )       
+
+
+looping(1)
+looping(30 , 40 )
+looping(5 , 15 , 7 )
+looping(5 , 15 , 7 , 10 )
+
+///////////////////////////////////////////////////////////////////////
+
+////// Array Methods ==> push(item/s) ==> add item/s at the end of array
+                         unshift(item/s) ==> add item/s from the start of array
+                         pop() ==> remove last item of array
+                         shift() ==> remove first item of array
+                         splice(startIndex , deletedCount , item/s) ==> add item/shift
+                                                                        remove item/shift
+                                                                        add / remove item/s
+                         includes(item) ==> return boolean type (true / false)
+                         concat()==> merge many array in 1 array
+                         toString()==> return string from array
+                         join(seperator) ==> return string from array
+                         forEach() 
+                         find()==> return first item with specific condition  
+                               ==> return undefinde with wrong condition
+                         findIndex()==> return first Index with specific condition  
+                                     ==> return -1 with wrong condition
+                         filter() ==> return array
+                                  ==> return empty array with wrong condition 
+
+
+// object = {
+    propertyName : propertyValue ,
+    propertyName : propertyValue ,
+    propertyName : propertyValue ,
+    propertyName : propertyValue ,
+    }                                            

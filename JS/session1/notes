@@ -1,0 +1,45 @@
+-- js Documentation ==> https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+-- variables ==> string , number , boolean , undefined , null 
+
+-- boolean values ==> true / false
+
+-- js ==> camel case , case sensitive
+
+-- Operators ==> Mathematical Operators
+                 Assignment Operators
+                 Unary Operators
+                 Comparison Operators
+                 Logical Operators
+                 Ternary Operators
+
+-- Mathematical Operators (Arthematic Operators)==> (+ - / * ** % ++ --)   
+-- Assignment Operators (shortcut Operators) ==> (+= , -= , /=  , *=  , **= , %=)   
+-- Unary Operators ==> typeof 
+-- Comparison Operators ==> (> , < , >= <= == === != !==) 
+-- logical ==> && || !
+-- Ternary Operator ==> (condition) ? true  : false
+
+-- falsy Value ==> undefined , null , 0 , -0 , NaN , "" , false
+-- truthy value ==> any other of falsy value
+
+-- NaN ==> Not a Number
+
+-- if/else statment
+
+-- Switch Statment ==> (===) strict Comparison
+
+-- loops ==> while , for , forEach(array)
+
+
+
+prompt()
+
+> 90 ==> A
+> 80 && < 90 ==> B
+>70 && < 80  ==> C
+< 70 ==> f
+
+
+
+

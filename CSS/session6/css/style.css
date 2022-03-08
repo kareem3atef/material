@@ -1,0 +1,161 @@
+/* reset style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bg-gray{
+    background-color: #F5F5F5;
+}
+.bg-orange{
+    background-color: #FF8B38;
+}
+.text-orange{
+    color: #FF8B38;
+}
+.text-white{
+    color: white;
+}
+
+.bg-dark{
+    background: #2D2D2D;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{justify-content: space-between;}
+.align-items-center{ align-items: center;}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.658);
+    height: 100%;
+}
+.btn-transparent{
+    background: transparent;
+    color: white;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+.bg-white{
+    background-color: white;
+}
+.w-30{
+    width: 30%;
+}
+.text-center{
+    text-align: center;
+}
+.text-uppercase{
+    /* text-transform ==> uppercase , lowercase , capitilaize */
+    text-transform: uppercase;
+}
+.w-40{
+    width: 40%;
+}
+.hr-orange{
+    width: 20%;
+    border: 2px solid #FF8B38;
+}
+.text-gray{
+    color: #dbdbdb;
+}
+.align-items-end{align-items: flex-end;}
+/* custopm Style */
+
+nav{
+    padding: 6px 0;
+}
+.text-logo{
+    font-size: 35px;
+}
+
+.bg-img{
+    background-image: url(../images/download.jpg);
+    background-size: 100% 100%;
+}
+
+.banner-details{
+    width: 50%;
+}
+.bg-img hr{
+    width: 15%;
+    margin: 3% 0;
+    border: 0;
+    border-bottom: 2px solid;
+    background: white;
+}
+.custom-padding{
+    padding: 6% 0;
+}
+.banner-form h2{
+    padding: 3%;
+}
+.banner-form input{
+    display: block;
+    width: 75%;
+    margin: 6% auto;
+    font-size: 16px;
+    padding: 2% 0;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+ 
+}
+.banner-form button{
+    width: 100%;
+    font-size: 17px;
+    padding: 4%;
+    border: 0;
+}
+.sub-list-image{
+    width: 40%;
+}
+
+.sub-list-rounded-icon{
+    border: 2px solid #FF8B38;
+    width: 41px;
+    height: 41px;
+    font-size: 18px;
+    border-radius: 50%;
+    line-height: 2;
+}
+.sub-list-description{
+    width: 80%;
+}
+
+.card-title{
+    border-bottom: 2px solid;
+    padding: 2%;
+}
+.big-text{
+    font-size: 90px;
+}
+.small-text{
+    font-size: 20px;
+}
+.card-p{
+    border-bottom: 4px solid #FF8B38;
+    padding-bottom: 3%;
+}
+.card-list li{
+    border-bottom: 1px solid lightgrey;
+    padding: 3%;
+}
+.card .padding-bottom{
+    padding-bottom: 2%;
+}

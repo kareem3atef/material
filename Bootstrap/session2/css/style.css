@@ -1,0 +1,33 @@
+.carousel-item img{
+    height: 600px;
+}
+.carousel-caption{
+    bottom: 13.25rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators{
+    left: auto;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: #3a6fa5;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: olivedrab;
+}
+
+.progress-bar{
+    width: 25%;
+}
+.progress-container:hover .progress-bar{
+    width: 100%;
+}

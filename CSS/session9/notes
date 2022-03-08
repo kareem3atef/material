@@ -1,0 +1,35 @@
+-- transform 2d ==> translateX() ==> px / % 
+                 translateY() ==> px , %
+                 translate() = translax() + translateY()
+                 scaleX() ==> num X width
+                 scaleY() ==> num X height
+                 scale() = scaleX() + scaleY()
+                 rotate(deg)
+                 skewX(deg)
+                 skewY(deg)
+                 skew() ==> skewX + skewY
+                 matrix(scaleX , skewY , skewX , scaleY , translateX , translatY)
+
+
+-- transform 3d ==> search
+
+-- https://css-tricks.com/almanac/properties/t/transform/
+-- https://www.w3schools.com/howto/howto_css_flip_card.asp
+
+
+-- animation ==> animation-name ==> keyFrames
+                 animation-duration : time (s / ms)
+                 animation-delay : time (s/ms)
+                 animation-direction : normal (0% : 100%) default
+                                       reverse (100% : 0%)
+                                       alternate (0 : 100) - (100 : 0)
+                                       alternate-reverse (100 : 0) - (0 : 100)
+                 animation-iteration-count : num / infinite
+                 animation-timing-function :same as transition-timing-function   
+                 animation-fill-mode (search)
+                 animation-play-state (search)   
+
+animation:name duration timing-function delay iteration-count direction fill-mode;                                 
+
+
+

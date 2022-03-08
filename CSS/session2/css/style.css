@@ -1,0 +1,96 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Global Style */
+.bg-gray{
+    background-color: #e6e6e6;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.bg-blue{
+    background-color: lightblue;
+}
+.custom-padding{
+    padding: 5% 0;
+}
+.clear{
+    clear: both;
+}
+/* Custom Style */
+
+#pricing-section .card{
+    width: 30%;
+    background-color: white;
+    padding: 2% 0;
+    float: left;
+    margin-top: 5%;
+    box-sizing: border-box;
+    /* display: inline-block; */
+  
+}
+#pricing-section .card hr{
+    width: 20%;
+    margin: 4% auto;
+    background-color: blue;
+    border: 3px solid blue;
+}
+#pricing-section .card h2{
+    background-color: antiquewhite;
+    padding: 7%;
+}
+.card-link{
+    background-color: aquamarine;
+    font-size: 20px;
+    margin: 11%;
+    padding: 6%;
+    display: inline-block;
+}
+
+.card-btn{
+    background-color: transparent;
+    color: red;
+    padding: 2% 8%;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 22px;
+}
+
+.custom-margin{
+    margin: 0 5%;
+}
+
+/* #about-section .card{
+
+} */
+
+
+form{
+    width: 46%;
+    background-color: black;
+    margin-top: 3%;
+    padding: 4%;
+    box-sizing: border-box;
+}
+
+.custom-input{
+    display: block;
+    width: 100%;
+    /* margin: auto; */
+    border: 0;
+    margin-bottom: 4%;
+    padding: 5%;
+    border-radius: 6px;
+    box-sizing: border-box;
+}

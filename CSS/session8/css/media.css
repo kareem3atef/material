@@ -1,0 +1,49 @@
+
+/* 0 : 576px */
+@media (max-width:576px){
+    .left-aside{
+        background-color: olive;
+    }
+    .left-aside , .right-aside{
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+}
+
+/* 0 : 360 px */
+@media (max-width:360px){
+    .left-aside{
+        background-color: lightblue;
+        width: 100%;
+    }
+    .right-aside , .v-card , .h-container{
+        width: 100%;
+    }
+    
+ 
+}
+
+
+/* 768px : up to */
+@media (min-width:768px){
+    .left-aside{
+        background-color: yellow;
+    }
+}
+
+
+/* Range ==> max-width - min-width */
+/* 600px : 700px */
+@media (min-width:600px) and (max-width:700px){
+    .left-aside{
+        background-color: blue;
+    }
+}
+
+@media (min-width:701px) and (max-width:750px){
+    .left-aside{
+        background-color: red;
+    }
+}

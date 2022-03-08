@@ -1,0 +1,134 @@
+/* Reset Style */
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* global Style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* nav style */
+nav{
+    background: rgb(203 202 202);
+    padding: 1% 0px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+nav h1 {
+    display: inline-block;
+}
+nav ul {
+    float: right;
+    padding-top: 4px;
+    width: 35%;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: red;
+}
+
+/* section style */
+.custom-height{
+    height: 700px;
+}
+.bg-gray{background-color: lightgrey;}
+.bg-blue{background-color: lightblue;}
+.bg-pink{background-color: lightpink;}
+.bg-green{background-color: lightgreen;}
+
+
+header{
+    background-color: blue;
+    height: 50px;
+}
+.top-btn{
+    font-size: 35px;
+    position: fixed;
+    right: 4%;
+    bottom: 6%;
+
+}
+#about-section{
+    padding-top: 4%;
+}
+#about-section .card{
+    width: 30%;
+    
+}
+.card .card-details{
+    background: black;
+    color: white;
+    padding: 2%;
+    position: relative;
+    /* z-index: 1; */
+    line-height: 1.5;
+}
+
+#about-section .card-details .square{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+
+.card .card-description{
+    margin-top: 10%;
+}
+
+.card .card-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.card .card-position{
+    float: right;
+    width: 65%;
+    margin-top: 7%;
+}
+
+
+/* #blog-section i {
+    font-size: 50px;
+    color: blue;
+    margin-top: 3%;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 2;
+} */
+
+.social-icon{
+    font-size: 50px;
+    color: blue;
+    margin-top: 3%;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 2;
+}

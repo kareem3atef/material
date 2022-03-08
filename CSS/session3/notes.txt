@@ -1,0 +1,11 @@
+-- background-image : url(image path)
+-- background-size : 100% 100% - cover - contain
+-- background-repeat-x : no-repeat , repeat(default)
+-- background-repeat-y : no-repeat , repeat(default)
+-- background-repeat : background-repeat-x  + background-repeat-y
+-- background-position-x: left , right , center
+-- background-position-y: top , bottom , center
+-- background-position: center bottom;
+-- background-attachment : fixed
+
+-- box-shadow : h-offset v-offset blur spread color
