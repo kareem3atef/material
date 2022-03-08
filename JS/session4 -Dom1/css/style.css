@@ -1,0 +1,36 @@
+.custom_style {
+    width: 50%;
+    height: 200px;
+    border:3px solid;
+    color: red;
+    border-radius: 10px;
+    margin: 2% auto;
+    background-color: beige;
+}
+
+a{
+    color: black;
+}
+
+
+.scroll-div{
+    height: 300px;
+    width: 200px;
+    background: lightblue;
+    overflow: auto;
+}
+
+
+
+.custom-height{
+    height: 2000px;
+}
+
+#topBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 5%;
+    font-size: 50px;
+    color: red;
+    display: none;
+}

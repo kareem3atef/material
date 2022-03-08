@@ -1,0 +1,12 @@
+-- DOM ==> Document Object Model
+
+-- document ==> .getElementById(elementID) ==> return 1 element
+                .getElementsByClassName(elementClass) ==> return Array
+                .getElementsByTagName(tag) ==> return Array
+                .querySelector(css selector) ==> return 1 element
+                .querySelectorAll(css selector) ==> return Array
+
+
+-- js Events ==> https://www.w3schools.com/jsref/dom_obj_event.asp     
+
+-- Bom ==> browser object model

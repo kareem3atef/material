@@ -1,0 +1,18 @@
+
+bank
+
+addUser() ==> name , id , Balance
+
+editUserBalanceById() ==> id , newBalance
+
+deleteUserById() ==> id
+
+
+var users = []
+
+function addUser(){
+    
+}
+
+//// functions convert string to number ==> https://www.w3schools.com/jsref/jsref_parseint.asp
+// owl carousel slidder ==> https://owlcarousel2.github.io/OwlCarousel2/
